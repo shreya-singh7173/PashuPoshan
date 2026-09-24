@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and private data
+dataset/raw/
+dataset/processed/
+*.csv
+*.xlsx
+*.zip
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
